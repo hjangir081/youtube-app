@@ -1,0 +1,33 @@
+/*Search Bar */
+#root{
+    
+        -webkit-box-sizing:inherit;
+        box-sizing: inherit;
+        background-color: #efefef;   
+
+}
+
+.ui{
+    color: rgb(255, 255, 255);
+} 
+ 
+.ui.segment {
+    position: relative;
+    background: #242323;
+    -webkit-box-shadow: 0 1px 2px 0 rgb(34 36 38 / 15%);
+    box-shadow: 0 1px 2px 0rgba(34,36,38,.15);
+    margin: 1rem 0;
+    padding: 1em 1em;
+    border-radius: 0.28571429rem;
+    border: 1pxsolidrgba(34,36,38,.15);
+}
+
+
+.ui.form .field>label {
+    display: block;
+    margin: 0 0 0.28571429rem 0;
+    color: rgb(255 255 255 / 87%);
+    font-size: .92857143em;
+    font-weight: 700;
+    text-transform: none;
+}
